@@ -75,7 +75,7 @@ async def inline_query_handler(_, query):
 ⏰ **ᴩᴜʙʟɪsʜᴇᴅ ᴏɴ :** {published}
 🎥 **ᴄʜᴀɴɴᴇʟ :** [{channel}]({channellink})
 
-<u>💖 **sᴇᴀʀᴄʜ ᴩᴏᴡᴇʀᴇᴅ ʙʏ {BOT_NAME}**</u>"""
+<u>**sᴇᴀʀᴄʜ ᴩᴏᴡᴇʀᴇᴅ ʙʏ {BOT_NAME}**</u>"""
             answers.append(
                 InlineQueryResultPhoto(
                     photo_url=thumbnail,
